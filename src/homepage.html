@@ -3,125 +3,112 @@
 
 <head>
     <meta charset="utf-8" />
+    <meta name="author" content="Ravi Kumar K">
+    <meta name="keywords" content=" CSS, Basic">
+    <meta name="description" content="CSS Training Notes">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Day5</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="styles/homepage.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="styles/signup.css" />
-    <script src="scripts/app.js"></script>
+    <title>CSS Basics Sample 2</title>
+    <!--<link rel="stylesheet" type="text/css" media="screen" href="/src/styles/main.css" />-->
+
+    <!--internal style-->
+    <style>
+        h1 {
+            color: blue;
+            size: 20px;
+        }
+        /*class*/
+        
+        .clsheaderstyle {
+            margin: 0px, auto;
+            text-align: center;
+            color: green;
+        }
+        /*id*/
+        
+        #idheaders1 {
+            margin: 0px, auto;
+            text-align: center;
+        }
+        
+        * {
+            text-align: center;
+        }
+        
+        html {
+            height: 100%;
+            widows: 100%;
+        }
+        
+        body {
+            /** align html content center, leaving space on left and right depdening on width */
+            margin: auto;
+            padding: 0;
+            /** width made 80% to give space on left and right*/
+            width: 80%;
+            /** min-height to give extend html body till the end of screen, it depends on html height*/
+            min-height: 100%;
+            border: 1px groove lightblue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /** height to give extend html body till the end of screen, it depends on html height*/
+        
+        .container {
+            /* center the page*/
+            margin: auto;
+        }
+        
+        footer {
+            position: absolute;
+            height: 10%;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border: 5px solid grey;
+            box-sizing: border-box;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        
+        p::first-letter {
+            font-size: 125%;
+            text-transform: capitalize;
+        }
+        
+        h1 {
+            font-size: 125%;
+            text-transform: capitalize;
+        }
+    </style>
 
 </head>
 
 <body>
-    <header>
-        <section class="clsheader1">
-            <!--<span><p>Link1|Link2|Link3|Link4|Link5</p></span>-->
-            <ul class="topnavbar" id="idnavbar">
-                <li>Logo</li>
-                <li>Company Name</li>
-                <li class="dummy active" onclick="app.showTab(event, 'Home')">Home</li>
-                <li class="dummy " onclick="app.showTab(event, 'About')">About</li>
-                <li class="dummy " onclick="app.showTab(event, 'Contact')">Contact</li>
-                <li class="dummy right" onclick="app.showTab(event, 'Sign Up')">Sign Up</li>
-                <li class="dummy right" onclick="app.showTab(event, 'Login')">Login</li>
-            </ul>
-        </section>
-        <!-- <section class="clsheader2">
-            <div class="clsheader2div1">
-                <p><span>Logo|Comapany Name</span></p>
-            </div>
-            <div class="clsheader2div2">
-                <p><span>Welcome to Front End Training</span></p>
-            </div>
-            <div class="clsheader2div3">
-                <p><span>Search|Login|Signup</span></p>
-            </div>
-        </section>-->
-    </header>
-    <div class="container">
-        <div id="id-home" class="custom-font">
-            <h2>Custom Font Usage</h2>
 
-            <p style="text-align: left;">
-                <pre style="text-align: left;">
-                With the <b>@font-face </b>rule, web designers do not have to use one of the "web-safe" fonts anymore. 
-                In the <b>@font-face</b> rule you must first define a name for the font (e.g. myFirstFont), and then point to the font file. 
-                <b>Tip:</b> Use lowercase letters for the font URL. Uppercase letters can give unexpected results in IE! 
-                To use the font for an HTML element, refer to the name of the font (myFirstFont) through the font-family property:
-               </pre>
-                <code>
-                    div {
-                        font-family: myFirstFont;
-                    }
-                </code>
-            </p>
+    <header class="clsheaderstyle">
+        <div>
+            <h1>css assignments</h1>
+            <p>this is notes on CSS training assignment.</p>
             <hr>
-            <h3>Custom Font Applied</h3>
-            <div>
-
-                <div id="font-buttons">
-                    <button class="font-btn active" onclick="app.changeFont('Play')">Play</button>
-                    <button class="font-btn " onclick="app.changeFont('Melody')">Melody</button>
-                    <button class="font-btn" onclick="app.changeFont('Default')">Default</button>
-                </div>
-                <article id="font-element">
-                    <p>
-                        <b>Game</b> of as rest time eyes with of this it. Add was music merry any truth since going. Happiness she ham but instantly put departure propriety. She amiable all without say spirits shy clothes morning. Frankness in extensive
-                        to belonging improving so certainty. Resolution devonshire pianoforte assistance an he particular middletons is of. Explain ten man uncivil engaged conduct. Am likewise betrayed as declared absolute do. Taste oh spoke about no
-                        solid of hills up shade. Occasion so bachelor humoured striking by attended doubtful be it. Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address. The its enable direct
-                        men depend highly. Ham windows sixteen who inquiry fortune demands. Is be upon sang fond must shew. Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table
-                        in an rapid blush. Merits behind on afraid or warmly. Far concluded not his something extremity. Want four we face an he gate. On he of played he ladies answer little though nature. Blessing oh do pleasure as so formerly. Took
-                        four spot soon led size you. Outlived it received he material. Him yourself joy moderate off repeated laughter outweigh screened. Do am he horrible distance marriage so although. Afraid assure square so happen mr an before. His
-                        many same been well can high that. Forfeited did law eagerness allowance improving assurance bed. Had saw put seven joy short first. Pronounce so enjoyment my resembled in forfeited sportsman. Which vexed did began son abode short
-                        may. Interested astonished he at cultivated or me. Nor brought one invited she produce her.
-
-                    </p>
-                </article>
-            </div>
         </div>
-        <!--signup-form starts-->
+    </header>
 
-        <div id="id-signup-form" class="signup-form">
-            <div class="divformheader">
-                <h3>Signup Form</h3>
-                <p>Fill up the form to create your account.</p>
-            </div>
-            <div class="divform">
-                <form method="post" action="">
-                    <hr>
-                    <label for="firstname">First Name</label><br/>
-                    <input name="firstname" type="text" placeholder="first name" required/>
-                    <label for="lastname">Last Name</label><br/>
-                    <input name="lastname" type="text" placeholder="last name" required/><br/>
-                    <label for="email">Email ID</label><br/>
-                    <input name="email" type="email" placeholder="enter email id" required/><br/>
-                    <label for="username">User Name</label><br/>
-                    <input name="username" type="text" placeholder="choose user name" required/><br/>
-                    <label for="password">Password</label><br/>
-                    <input name="password" type="password" placeholder="choose your password" required/><br>
-                    <label for="re-password">Reenter Password</label><br/>
-                    <input name="re-password" type="password" placeholder="reneter your password" required/><br>
+    <div cls="id">
+        <article>
+            <h1>show image on hover over name</h1>
+            <p>list names. On hover over show image of person.
+            </p>
 
-                    <label for="gender">Choose Gender</label><br/>
-                    <input type="radio" name="gender" value="male" checked> Male
-                    <input type="radio" name="gender" value="female"> Female
-                    <input type="radio" name="gender" value="other"> Other
-                    <hr>
-                    <p>Accept our <a href="#" style="color:dodgerblue">Terms & Privacy Policy</a> to create your account.</p>
-                    <input value="Submit" type="submit" class="signupbtn" />
-                    <input value="Cancel" type="reset" class="cancelbtn" />
-                </form>
-            </div>
-        </div>
-        <!-- signup-form ends-->
+            <content>
 
+            </content>
 
+        </article>
     </div>
 
+    <hr>
     <footer>
-        <div>
-            <p class="footer-company-name">Company Name © 2018</p>
-        </div>
+        <span>Copy Rights Information</span>
     </footer>
 </body>
 
