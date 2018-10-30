@@ -1,0 +1,216 @@
+html {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/body-background.jpg);
+    background-color: 100% transparent;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* custom  fonts*/
+
+@font-face {
+    font-family: "Play";
+    src: url(./fonts/PlayfairDisplay-Regular.ttf), url(./fonts/PlayfairDisplay-Bold.ttf) url(./fonts/PlayfairDisplay-Italic.ttf), url(./fonts/PlayfairDisplay-Black.ttf), url(./fonts/PlayfairDisplay-BoldItalic.ttf);
+    ;
+}
+
+@font-face {
+    font-family: "Melody";
+    src: url(./fonts/HiMelody-Regular.ttf);
+}
+
+
+/* Style the buttons */
+
+.font-btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+/* Style the active class, and buttons on mouse-over */
+
+.active,
+.font-btn:hover {
+    background-color: #666;
+    color: white;
+}
+
+body {
+    margin: auto;
+    padding: 0;
+    min-height: 100%;
+    width: 100%;
+    display: block;
+    background-color: rgba(255, 255, 255, 1);
+    /*border: 2px solid red;*/
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: "Play Regular";
+}
+
+header {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 40px;
+    opacity: 1;
+    z-index: 300;
+}
+
+.clsheader1 {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+}
+
+.clsheader2 {
+    height: 50%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clsheader2div1 {
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.clsheader2div2 {
+    width: 60%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.clsheader2div3 {
+    width: 20%;
+    height: 100%;
+    float: left;
+    align-items: left;
+    box-sizing: border-box;
+}
+
+
+/** nav bar item style*/
+
+ul.topnavbar {
+    list-style-type: none;
+    margin: 0 10% 0 10%;
+    width: 50%;
+    align: ;
+    height: 100%;
+    padding: 0px;
+    width: auto;
+    min-height: 100%;
+    vertical-align: middle;
+}
+
+ul.topnavbar li {
+    float: left;
+    height: 100%;
+    padding: 12px 10px 12px 10px;
+    color: white;
+    text-align: center;
+    display: flex;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+ul.topnavbar li a,
+ul.topnavbar li span {
+    box-sizing: border-box;
+    line-height: 100%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+ul.topnavbar li.right {
+    float: right;
+}
+
+ul.topnavbar li:hover:not(.active) {
+    /* background-color: #111;*/
+    border-bottom: 2px solid #0084ff
+}
+
+ul.topnavbar li.active {
+    background-color: #4CAF50;
+}
+
+body>.container {
+    position: relative;
+    margin: 10px auto;
+    padding: 0;
+    width: 80%;
+    box-sizing: border-box;
+    min-height: 800px;
+    overflow: auto;
+    text-align: center;
+    vertical-align: middle;
+    /*border: 5px solid lightgrey;*/
+    box-sizing: border-box;
+    z-index: 100;
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, .5);
+}
+
+.custom-font,
+.signup-form {
+    text-align: left;
+    height: auto;
+    padding: 20px;
+    display: block;
+    text-align: justify;
+    box-sizing: border-box;
+    display: none;
+}
+
+.signup-form {
+    margin: auto;
+    width: 50%;
+    display: none;
+}
+
+.custom-font {
+    display: block;
+}
+
+footer {
+    margin: auto;
+    width: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 10%;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    text-align: center;
+    border-top: 1px solid grey;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}

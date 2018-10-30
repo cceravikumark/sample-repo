@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Ravi Kumar K">
+    <meta name="keywords" content=" CSS, Basic">
+    <meta name="description" content="CSS Training Notes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS Basics</title>
+    <!--<link rel="stylesheet" type="text/css" media="screen" href="/src/styles/main.css" />-->
+
+    <!--internal style-->
+    <style>
+        h1 {
+            color: blue;
+            size: 20px;
+        }
+        /*class*/
+        
+        .clsheaderstyle {
+            margin: 0px, auto;
+            text-align: center;
+            color: green;
+        }
+        /*id*/
+        
+        #idheaders1 {
+            margin: 0px, auto;
+            text-align: center;
+        }
+        
+        * {
+            text-align: center;
+        }
+        
+        html {
+            height: 100%;
+            widows: 100%;
+        }
+        
+        body {
+            /** align html content center, leaving space on left and right depdening on width */
+            margin: auto;
+            padding: 0;
+            /** width made 80% to give space on left and right*/
+            width: 80%;
+            /** min-height to give extend html body till the end of screen, it depends on html height*/
+            min-height: 100%;
+            border: 1px groove lightblue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /** height to give extend html body till the end of screen, it depends on html height*/
+        
+        .container {
+            /* center the page*/
+            margin: auto;
+        }
+        
+        footer {
+            position: absolute;
+            height: 10%;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border: 5px solid grey;
+            box-sizing: border-box;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        
+        p::first-letter {
+            font-size: 125%;
+            text-transform: capitalize;
+        }
+        
+        h1 {
+            font-size: 125%;
+            text-transform: capitalize;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header class="clsheaderstyle">
+        <div>
+            <h1>css assignments</h1>
+            <p>this is notes on CSS training assignment.</p>
+            <hr>
+        </div>
+    </header>
+
+    <div cls="id">
+        <article>
+            <h1>show image on hover over name</h1>
+            <p>list names. On hover over show image of person.
+            </p>
+
+            <content>
+
+            </content>
+
+        </article>
+    </div>
+
+    <hr>
+    <footer>
+        <span>Copy Rights Information</span>
+    </footer>
+</body>
+
+</html>

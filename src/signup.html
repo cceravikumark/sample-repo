@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Signup Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" media="screen" href="styles/main.css" />
+    <link rel="stylesheet" media="screen" href="styles/signup.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="divformheader">
+            <h1>Signup Form</h1>
+            <p>Fill the form to create your account for training.</p>
+        </div>
+        <div class="divform">
+            <form method="post" action="">
+                <hr>
+                <label for="firstname">First Name</label><br/>
+                <input name="firstname" type="text" placeholder="first name" required/>
+                <label for="lastname">Last Name</label><br/>
+                <input name="lastname" type="text" placeholder="last name" required/><br/>
+                <label for="email">Email ID</label><br/>
+                <input name="email" type="email" placeholder="enter email id" required/><br/>
+                <label for="username">User Name</label><br/>
+                <input name="username" type="text" placeholder="choose user name" required/><br/>
+                <label for="password">Password</label><br/>
+                <input name="password" type="password" placeholder="choose your password" required/><br>
+                <label for="re-password">Reenter Password</label><br/>
+                <input name="re-password" type="password" placeholder="reneter your password" required/><br>
+
+                <label for="gender">Choose Gender</label><br/>
+                <input type="radio" name="gender" value="male" checked> Male
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="other"> Other
+                <hr>
+
+                <p>Accept our <a href="#" style="color:dodgerblue">Terms & Privacy Policy</a> to create your account.</p>
+                <input value="Submit" type="submit" class="signupbtn" />
+                <input value="Cancel" type="reset" class="cancelbtn" />
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
