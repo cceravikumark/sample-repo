@@ -1,2 +1,3 @@
 Angular Extended diagnostics:
 https://blog.angular.io/angular-extended-diagnostics-53e2fa19ece9
+sample lines
