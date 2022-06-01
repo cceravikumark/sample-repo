@@ -3,3 +3,4 @@ https://blog.angular.io/angular-extended-diagnostics-53e2fa19ece9
 sample lines
 sample line 2
 sample line 3
+sample line 4
